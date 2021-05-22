@@ -1,5 +1,5 @@
 ```bash
-npm installnpm a
+npm install
 npm run dev
 ```
 
