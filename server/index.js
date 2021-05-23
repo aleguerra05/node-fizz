@@ -46,7 +46,7 @@ app.use(function(req, res, next) {
   
     // respond with html page
     if (req.accepts('html')) {
-      res.render('404', { url: req.url });
+      res.render('404', {title:"404 Not Found" });
       return;
     }
 })
