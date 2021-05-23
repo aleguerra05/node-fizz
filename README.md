@@ -21,3 +21,5 @@ For run the tests:
 npm test
 ```
 
+The site is currently publish on https://fizzbuzz-five.vercel.app/
+
