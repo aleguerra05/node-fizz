@@ -1,0 +1,21 @@
+extends layout
+
+block layout-content
+  div.View.WelcomeView
+      h1.Banner Welcome to my FizzBuzz
+
+      div.Content
+        h1 Hello, this is my fizzbuzz test
+        h3 you can go directly to 
+          a(href='/result?number=18') /result?number=18
+        h3 or also view the complete serie on 
+           a(href='/fizzbuzz') /fizzbuzz
+        h3 or ask for a number on
+          a(href='/fizzbuzz/15') /fizzbuzz/15
+
+      div.Message
+        div.Title
+          h3 Navigation panel
+          h1
+            a(href='/check') Check a Number
+        span.Details 

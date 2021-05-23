@@ -6,11 +6,9 @@ const serie = '1\n2\nfizz\n4\nbuzz\nfizz\n7\n8\nfizz\nbuzz\n11\nfizz\n13\n14\nfi
 
 test('hello test', function (t) {
   request(app)
-    .get('/hello')
+    .get('/')
     .expect(200)
     .end(function (err, res) {
-      var expectedText = 'Hello World! by Aleguerra05';
-      t.same(res.text, expectedText, 'Grettings as expected');
       t.end();
     });
 }); 
@@ -34,6 +32,20 @@ test('fizzbuz random test', function (t) {
     .end(function (err, res) {
       var expectedText = serie.split('\n')[number-1];
       t.same(res.text, expectedText, `Fizzbuzz of ${number} is ${expectedText} as expected`);
+      t.end();
+    });
+}); 
+
+test('check page test', function (t) {
+  let number = Math.floor(Math.random() * 101);
+  request(app)
+    .get(`/result`)
+    .set('Content-Type', 'application/x-www-form-urlencoded')
+    .query({number:number})
+    .expect(200)
+    .end(function (err, res) {
+      var expectedText = number + ' - ' + serie.split('\n')[number-1];
+      t.assert(res.text.includes(expectedText),"result includes "+expectedText)
       t.end();
     });
 }); 

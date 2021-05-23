@@ -1,0 +1,17 @@
+extends layout
+
+block layout-content
+  div.View.CheckView
+      h1.Banner Fizzbuzz Result
+
+      div.Content 
+        h1 #{number} - #{fizz}
+
+      div.Message
+        div.Title
+          h3 Navigation panel
+          h1
+            a(href='/') Back to Home
+          h1
+            a(href='/check') Another Number
+        span.Details
