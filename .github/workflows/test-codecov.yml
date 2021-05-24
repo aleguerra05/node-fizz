@@ -19,4 +19,4 @@ jobs:
       - run: npm install
       - run: npm install -g codecov
       - run: npm test
-      - run: bash <(curl -s https://codecov.io/bash)
+      - run: bash <(curl -s https://codecov.io/bash) -t 87e84a6a-360c-4100-a4ad-e8224eb841eb
