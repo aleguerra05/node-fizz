@@ -1,5 +1,7 @@
 version: 1.0.{build}
 image: Ubuntu1804
+enviroment:
+- nodejs_version: "14"
 install:
 - sh: npm install
 build: off
