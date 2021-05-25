@@ -25,14 +25,12 @@ For run the tests:
 npm test
 ```
 
-For run the application on docker:
+For run the application on docker you can build the image:
 
 ```bash
 docker build -t node-fizz:1.0 .
 ```
-
 then:
-
 ```bash
 docker run -d -p 8000:8000 node-fizz:1.0
 ```
@@ -40,6 +38,12 @@ or:
 ```bash
 docker compose up -d
 ```
+
+Or you can pull an run it form DockerHub
+```bash
+docker run -d -p 8000:8000 aleguerra05/node-fizz:latest
+```
+
 
 Also the site is currently publish on https://fizzbuzz-five.vercel.app/
 
