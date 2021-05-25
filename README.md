@@ -1,8 +1,9 @@
 # Simple fizzbuzz NodeJs Site
-
-[![codecov](https://codecov.io/gh/aleguerra05/node-fizz/branch/main/graph/badge.svg?token=CUOSRTD02C)](https://codecov.io/gh/aleguerra05/node-fizz)
 ![codecov workflow](https://github.com/aleguerra05/node-fizz/actions/workflows/test-codecov.yml/badge.svg)
+[![AppVeyor tests (compact)](https://img.shields.io/appveyor/tests/aleguerra05/node-fizz?compact_message)](https://ci.appveyor.com/project/aleguerra05/node-fizz/build/tests)
+[![codecov](https://codecov.io/gh/aleguerra05/node-fizz/branch/main/graph/badge.svg?token=CUOSRTD02C)](https://codecov.io/gh/aleguerra05/node-fizz)
 ![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/aleguerra05/node-fizz)
+
 To run please clone the repo:
 
 ```bash
