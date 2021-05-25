@@ -6,3 +6,5 @@ docker-compose.yml
 .dockerignore
 vercel.json
 bs-config.js
+.github/
+appveyor.yml
