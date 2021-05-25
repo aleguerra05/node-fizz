@@ -3,6 +3,7 @@
 [![AppVeyor tests (compact)](https://img.shields.io/appveyor/tests/aleguerra05/node-fizz?compact_message)](https://ci.appveyor.com/project/aleguerra05/node-fizz/build/tests)
 [![codecov](https://codecov.io/gh/aleguerra05/node-fizz/branch/main/graph/badge.svg?token=CUOSRTD02C)](https://codecov.io/gh/aleguerra05/node-fizz)
 ![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/aleguerra05/node-fizz)
+[![Vercel](https://vercelbadge.vercel.app/api/aleguerra05/node-fizz)](https://vercel.com/aleguerra05/fizzbuzz)
 
 To run please clone the repo:
 
@@ -46,5 +47,3 @@ docker run -d -p 8000:8000 aleguerra05/node-fizz:latest
 
 
 Also the site is currently publish on https://fizzbuzz-five.vercel.app/
-
-
