@@ -1,5 +1,7 @@
 # Simple fizzbuzz NodeJs Site
 
+[![codecov](https://codecov.io/gh/aleguerra05/node-fizz/branch/main/graph/badge.svg?token=CUOSRTD02C)](https://codecov.io/gh/aleguerra05/node-fizz)
+
 To run please clone the repo:
 
 ```bash
