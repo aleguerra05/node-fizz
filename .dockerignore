@@ -1,0 +1,7 @@
+coverage/
+dockerfile
+docker-compose.yml
+.gitignore
+.dockerignore
+vercel.json
+bs-config.js
