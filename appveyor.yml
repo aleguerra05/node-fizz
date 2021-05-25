@@ -1,7 +1,8 @@
 version: 1.0.{build}
 image: Ubuntu
 environment:
-  nodejs_version: "14"
+  matrix:
+    - nodejs_version: "14"
 install:
 - sh: npm install
 build: off
