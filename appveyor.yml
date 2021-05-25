@@ -3,6 +3,8 @@ version: 1.0.{build}
 environment:
   nodejs_version: "14"
 install:
+  # Get the latest stable version of Node.js or io.js
+  - ps: Install-Product node $env:nodejs_version
   - node --version
   - npm --version
   - npm install
